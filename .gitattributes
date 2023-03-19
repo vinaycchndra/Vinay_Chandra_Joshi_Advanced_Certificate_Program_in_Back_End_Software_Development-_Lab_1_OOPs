@@ -8,6 +8,7 @@
 
 # These files are text and should be normalized (Convert crlf => lf)
 *.css           text diff=css
+*.class         text diff=css
 *.scss          text diff=css
 *.sass          text
 *.df            text
@@ -25,7 +26,6 @@
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
-*.class         binary
 *.dll           binary
 *.ear           binary
 *.jar           binary
